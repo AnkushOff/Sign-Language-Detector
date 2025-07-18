@@ -13,4 +13,6 @@ A Machine Learning-based application that detects American Sign Language (ASL) a
 1. **Clone the repository**
    ```bash
    git clone https://github.com/AnkushOff/Sign-Language-Detector.git
+   ```
+   ```bash
    cd Sign-Language-Detector
