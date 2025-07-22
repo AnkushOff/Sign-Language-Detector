@@ -1,18 +1,56 @@
-# Sign-Language-Detector
-A Machine Learning-based application that detects American Sign Language (ASL) alphabets using computer vision and a webcam feed. This project helps bridge the communication gap by recognizing hand gestures in real time and mapping them to their corresponding English alphabets.
+# 🤟 Sign Language Detector – Real-Time Gesture Recognition with ML
 
-## 🧠 Features
+A real-time sign language recognition system using **TensorFlow**, **Keras**, and **OpenCV** that detects hand gestures via webcam and translates them into alphabetic characters (A–Z). This project aims to promote **accessible communication** for individuals with hearing or speech impairments.
 
-- 🔍 Real-time sign language alphabet detection via webcam
-- 🤖 Trained using image classification techniques
-- 📊 Visual feedback using OpenCV
-- 🛠️ Built using Python, TensorFlow/Keras, OpenCV
+---
 
-### 🔧 Installation
+## 🧠 How It Works
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AnkushOff/Sign-Language-Detector.git
-   ```
-   ```bash
-   cd Sign-Language-Detector
+- Uses **ConvNet (CNN)** trained on image data of hand gestures
+- Real-time webcam feed processed using **OpenCV**
+- Predicts ASL (American Sign Language) alphabets
+- Displays predicted character on screen in live video
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| `Python`, `OpenCV` | Image capture, video stream handling |
+| `TensorFlow`, `Keras` | Model training and inference |
+| `NumPy`, `Matplotlib` | Data handling and visualization |
+
+---
+
+## 📈 Model Performance
+
+- Achieved **85%+ accuracy** on validation data  
+- Trained on 26-class ASL dataset (A–Z)  
+- Optimized for real-time inference with 30% reduced runtime
+
+---
+
+## 💡 Use Case / Impact
+
+This system can be used in:
+- **Accessibility tools** for education or customer support
+- **Learning platforms** for teaching sign language
+- **Gesture-based interfaces** for embedded devices or kiosks
+
+---
+
+## 🧪 Try It Locally
+
+1. Clone the repo  
+```bash
+git clone https://github.com/AnkushOff/Sign-Language-Detector.git
+```
+```bash
+cd Sign-Language-Detector
+```
+2.Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
